@@ -1,0 +1,12 @@
+/*   
+Theme Name: Tierarztpraxis Hernandez
+Theme URI: tierarzt-hernandez.de
+Description: Template für die Webseite tierarzt-hernandez.de
+Author: Jo Schäfer
+Author URI: https://joschaefer.com
+*/
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
