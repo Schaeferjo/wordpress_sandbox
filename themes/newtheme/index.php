@@ -10,12 +10,12 @@
 
 
 <body> 
-   <div id="wrapper" class="relative flex flex-col h-full min-h-screen justify-between bg-stone-50">
+   <div id="wrapper" class="relative flex flex-col h-full min-h-screen justify-between bg-stone-100">
     
    <?php get_header(); ?>
       
-   <div id="main" class="relative max-w-6xl w-full mt-24 mb-auto mx-auto bg-white">
-      <div class="pt-12 pb-24 px-6">
+   <div id="main" class="relative max-w-6xl w-full mb-auto mx-auto bg-stone-50">
+      <div class="px-12 pt-48 pb-24">
          <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
             <h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
             <div class="entry">
