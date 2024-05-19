@@ -1,5 +1,9 @@
 {
   "devDependencies": {
     "tailwindcss": "^3.4.3"
+  },
+  "dependencies": {
+    "@fontsource-variable/oswald": "^5.0.20",
+    "@fontsource/oswald": "^5.0.20"
   }
 }
