@@ -6,12 +6,10 @@ Author: Jo Schäfer
 Author URI: https://joschaefer.com
 */
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('@fontsource/oswald/500.css');
 
 body {
   font-family: 'Oswald', sans-serif;
