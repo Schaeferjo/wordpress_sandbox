@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./themes/newtheme/style.css",
+    "dev": "tailwindcss -i ./src/input.css -o ./themes/newtheme/style.css --watch"
+  },
   "devDependencies": {
     "tailwindcss": "^3.4.3"
   },
