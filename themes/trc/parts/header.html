@@ -1,8 +1,14 @@
-<header class="fixed w-full bg-white shadow mb-24">
-	<div class="max-w-4xl mx-auto flex flex-row gap-10 h-24 items-center">
-		<div class="">LOGO</div>
-		<div class="grow border flex justify-end">
-			<!-- wp:navigation {"ref":7} /-->
-		</div>
-	</div>
+<header class="fixed w-full bg-white shadow mb-24  has-white-background-color has-background" style="margin-bottom: var(--wp--preset--spacing--24);">
+    <!-- wp:group {"style":{"spacing":{"margin":{"left":"var:preset|spacing|auto","right":"var:preset|spacing|auto"},"blockGap":"var:preset|spacing|10"}},"layout":{"type":"flex","verticalAlignment":"center"}} -->
+<div class="max-w-4xl mx-auto flex flex-row gap-10 h-24 items-center wp-block-group" style="margin-left: var(--wp--preset--spacing--auto); margin-right: var(--wp--preset--spacing--auto);">
+        <!-- wp:group  -->
+<div class="wp-block-group">LOGO</div>
+<!-- /wp:group -->
+        <!-- wp:group {"style":{"border":{}},"layout":{"type":"flex","justifyContent":"right"}} -->
+<div class="grow border flex justify-end wp-block-group" style="border-width: undefined;">
+            <!-- wp:navigation {"ref":7} /-->
+        </div>
+<!-- /wp:group -->
+    </div>
+<!-- /wp:group -->
 </header>
